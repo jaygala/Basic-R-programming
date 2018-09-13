@@ -87,3 +87,11 @@ aggregate(cbind(marks1, marks2) ~gender+batch, data=df, FUN=mean)
 
 aggregate(cbind(marks1, marks2) ~batch+gender, data=df, FUN=max)  #function changed to max 
 
+
+#CONVERTING IT TO CSV FILE
+df
+write.csv(df,"./data/student_data.csv")
+
+df3=read.csv("./data/student_data.csv")
+df3
+df3=df3[,-1]  #removing 1st column
