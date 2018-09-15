@@ -1,3 +1,10 @@
+#Hierarchial levels of analysis
+  #1.Descriptive (what has happened) - Aggregation, Clustering Summary of Data
+  #2.Diagnostics (Why did it happen) -  Correlation, relationships
+  #3.Predictive (What will happen) - Linear regression, classification  // linear regression - continuous kind, logistic regression - binary output- like yes or no. 
+  #4.Prescriptive (What to do?) - Linear programming
+
+
 #vector
 
 x = c(1,2,3) #makes a vector with 1,2,3. c is used to concatnate 

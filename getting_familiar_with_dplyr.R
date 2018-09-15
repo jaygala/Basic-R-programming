@@ -16,3 +16,6 @@ iris
 count(iris,Species)
 #count(gear,3)
 count(mtcars,gear)
+distinct(iris,Species)
+sample_n(iris,10,replace=T)
+top_n(iris,5,Sepal.Width)
