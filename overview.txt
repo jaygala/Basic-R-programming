@@ -1,0 +1,7 @@
+#OVERVIEW
+
+#Desriptive analyisis - mean, medain, mode, summary, agregagtion
+#Diagnstic analyis- Correlations (mtcars - if mpg is related to weight of the car or not)
+#Predictive analysis - CART algorithm .. decision tree (predicted if someone will buy or not )
+#                      Linear regression, logistic regression
+#Prescriptive analysis - Market basket analysis - (groceries)
